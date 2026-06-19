@@ -5,7 +5,9 @@ class Program
 {
     static void Main()
     {
-        SolidPrincipleExample solidPrincipleExample = new();
-        solidPrincipleExample.Run();
+        // SolidPrincipleExample solidPrincipleExample = new();
+        // solidPrincipleExample.Run();
+        DocumentEditorMain documentEditorMain = new();
+        documentEditorMain.Run();
     }
 }

@@ -1,7 +1,7 @@
 # Build results
 bin/
 obj/
-
+document.txt
 # Visual Studio Code settings
 .vscode/
 
