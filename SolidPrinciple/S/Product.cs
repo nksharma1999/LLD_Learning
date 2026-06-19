@@ -1,11 +1,5 @@
-class Product
+class Product(string name, decimal price)
 {
-    public string Name { get; set; }
-    public decimal Price { get; set; }
-
-    public Product(string name, decimal price)
-    {
-        Name = name;
-        Price = price;
-    }
+    public string Name { get; set; } = name;
+    public decimal Price { get; set; } = price;
 }

@@ -5,15 +5,15 @@ class Program
 {
     static void Main()
     {
-        SInitialization sInitialization = new SInitialization();
-        sInitialization.Initialize();
-        OInitialization oInitialization = new OInitialization();
+        SInitialization sInitialization = new();
+        SInitialization.Initialize();
+        OInitialization oInitialization = new();
         oInitialization.Initialization();
-        LInitialization lInitialization = new LInitialization();
+        LInitialization lInitialization = new();
         lInitialization.Initialization();
-        IInitialization iInitialization = new IInitialization();
+        IInitialization iInitialization = new();
         iInitialization.Initialize();
-        DInitialization dInitialization = new DInitialization();
+        DInitialization dInitialization = new();
         dInitialization.Initialize();
     }
 }
