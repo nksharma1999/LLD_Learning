@@ -1,0 +1,14 @@
+D:\P\LLD\LLD\bin\Debug\net9.0\LLD.exe
+D:\P\LLD\LLD\bin\Debug\net9.0\LLD.deps.json
+D:\P\LLD\LLD\bin\Debug\net9.0\LLD.runtimeconfig.json
+D:\P\LLD\LLD\bin\Debug\net9.0\LLD.dll
+D:\P\LLD\LLD\bin\Debug\net9.0\LLD.pdb
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.GeneratedMSBuildEditorConfig.editorconfig
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.AssemblyInfoInputs.cache
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.AssemblyInfo.cs
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.csproj.CoreCompileInputs.cache
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.dll
+D:\P\LLD\LLD\obj\Debug\net9.0\refint\LLD.dll
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.pdb
+D:\P\LLD\LLD\obj\Debug\net9.0\LLD.genruntimeconfig.cache
+D:\P\LLD\LLD\obj\Debug\net9.0\ref\LLD.dll
