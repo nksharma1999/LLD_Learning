@@ -7,7 +7,9 @@ class Program
     {
         // SolidPrincipleExample solidPrincipleExample = new();
         // solidPrincipleExample.Run();
-        DocumentEditorMain documentEditorMain = new();
-        documentEditorMain.Run();
+        // DocumentEditorMain documentEditorMain = new();
+        // documentEditorMain.Run();
+        StrategyDesignMain strategyDesignMain = new();
+        strategyDesignMain.Initialize();
     }
 }
