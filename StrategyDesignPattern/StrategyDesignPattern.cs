@@ -80,22 +80,46 @@ class NoSwim : SwimmableRobot
     }
 }
 
+interface ProjectableRobot
+{
+    public void Projection();
+}
+
+class NoProjection : ProjectableRobot
+{
+    public void Projection()
+    {
+        Console.WriteLine("Robot cannot project");
+    }
+}
+
+class NormalProjection : ProjectableRobot
+{
+    public void Projection()
+    {
+        Console.WriteLine("Robot is projecting Normally");
+    }
+}
+
+
 class Robot
 {
     protected WalkableRobot walkableRobot;
     protected FlyableRobot flyableRobot;
     protected TalkableRobot talkableRobot;
     protected SwimmableRobot swimmableRobot;
+    protected ProjectableRobot projectableRobot;
     private NormalFly normalFly;
     private NormalTalk normalTalk;
     private NormalSwim normalSwim;
 
-    public Robot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot)
+    public Robot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot, ProjectableRobot projectableRobot)
     {
         this.walkableRobot = walkableRobot;
         this.flyableRobot = flyableRobot;
         this.talkableRobot = talkableRobot;
         this.swimmableRobot = swimmableRobot;
+        this.projectableRobot = projectableRobot;
     }
 
     public void Walk()
@@ -118,13 +142,16 @@ class Robot
         swimmableRobot.Swim();
     }
 
-    public void Projection(){}
+    public void Projection()
+    {
+        projectableRobot.Projection();
+    }
 }
 
 class CompanionRobot : Robot
 {
-    public CompanionRobot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot) 
-        : base(walkableRobot, flyableRobot, talkableRobot, swimmableRobot){}
+    public CompanionRobot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot, ProjectableRobot projectableRobot) 
+        : base(walkableRobot, flyableRobot, talkableRobot, swimmableRobot, projectableRobot){}
 
     public void Projection()
     {
@@ -134,12 +161,8 @@ class CompanionRobot : Robot
 
 class WorkerRobot : Robot
 {
-    public WorkerRobot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot) 
-        : base(walkableRobot, flyableRobot, talkableRobot, swimmableRobot){}
+    public WorkerRobot(WalkableRobot walkableRobot, FlyableRobot flyableRobot, TalkableRobot talkableRobot, SwimmableRobot swimmableRobot, ProjectableRobot projectableRobot) 
+        : base(walkableRobot, flyableRobot, talkableRobot, swimmableRobot, projectableRobot ){}
 
-    public void Projection()
-    {
-        Console.WriteLine("Worker Robot is projecting");
-    }
 }
 
