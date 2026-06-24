@@ -9,7 +9,13 @@ class Program
         // solidPrincipleExample.Run();
         // DocumentEditorMain documentEditorMain = new();
         // documentEditorMain.Run();
-        StrategyDesignMain strategyDesignMain = new();
-        strategyDesignMain.Initialize();
+        // StrategyDesignMain strategyDesignMain = new();
+        // strategyDesignMain.Initialize();
+        // SimpleFactoryExample simpleFactoryExample = new();
+        // simpleFactoryExample.Initialize();
+        // FactoryMethodExample factoryMethodExample = new();
+        // factoryMethodExample.Initialize();
+        // AbstractFactoryMethodExample abstractFactoryMethodExample = new();
+        // abstractFactoryMethodExample.Initialize();
     }
 }
