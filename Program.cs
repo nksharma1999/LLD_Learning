@@ -17,7 +17,9 @@ class Program
         // factoryMethodExample.Initialize();
         // AbstractFactoryMethodExample abstractFactoryMethodExample = new();
         // abstractFactoryMethodExample.Initialize();
-        SingletonExample singletonExample = new();
-        singletonExample.Initialize();
+        // SingletonExample singletonExample = new();
+        // singletonExample.Initialize();
+        // ObserverDesignPatternExample observerDesignPatternExample = new();
+        // observerDesignPatternExample.Initialize();
     }
 }
